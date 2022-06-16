@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+:root {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.6rem;
+  background-image: url("https://media.newyorker.com/photos/5d78074af479dc000802ec0b/16:9/w_2560,h_1439,c_limit/Somers-Kiteboarding.jpg");
+  background-color: #008b8b;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+}
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+} 
+@media (min-width: 1001px) {
+  #form-box,
+  #title-container {
+    width: 950px;
+  }
+}
+@media (max-width: 1000px) {
+  #form-box,
+  #title-container {
+    width: 700px;
+  }
+}
+@media (max-width: 700px) {
+  #form-box,
+  #title-container {
+    width: 95%;
+  }
+}
+#main {
+  padding: 1rem 0 5rem 0;
+}
+#header-box {
+  text-align: center;
+  margin: auto;
+  color: rgb(240, 248, 255);
+}
+#form-box {
+  text-align: center;
+  background: rgb(250, 235, 215, 0.55);
+  margin: 2rem auto 0 auto;
+  padding: 2rem 1rem 2rem 1rem;
+  border-radius: 1rem;
+  color: rgb(47, 79, 79);
+}
+.form-items {
+  padding: 0 0 1rem 0;
+  width: 80%;
+  margin: auto;
+}
+.title-items {
+  font-style: bold;
+  font-size: 2rem;
+}
+.form-forms {
+  width: 80%;
+  padding: 1rem;
+  margin: 2rem 0 0 0;
+  background: rgb(127, 255, 212, 0.6);
+  border-radius: 0.7rem;
+  border: none;
+  color: rgb(47, 79, 79);
+}
+
+.submit-button {
+  width: 60%;
+  padding: 1rem;
+  margin: 2rem 0 0 0;
+  background: rgb(47, 79, 79, 0.6);
+  border-radius: 0.7rem;
+  border: none;
+  color: rgb(240, 248, 255);
+}

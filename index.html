@@ -1,0 +1,71 @@
+<main id="main">
+    <div id="header-box">
+      <h1> KiteForum Survey</h1>
+      <p>This survey aims to determine the average user of kiteforum.com so as to better serve the community. Thank you for your participation!</p>
+    </div>
+    <form id="form-box">
+      <div class="form-items">
+        <label for="name" id="name-label" class="title-items">Name</label><br>
+        <input id="name" type="text" placeholder="Enter you name (required)" class="form-forms"required>
+      </div>
+      <div class="form-items">
+        <label for="email" id="email-label" class="title-items">Email</label><br>
+        <input id="email" type="email" placeholder="Enter your email (required)" class="form-forms"required>
+      </div>
+      <div class="form-items">
+        <label for="number" id="number-label" class="title-items">Age</label><br>
+        <input id="number" type="number" min="10" max="105" name="age" placeholder="Age" class="form-forms">
+      </div>
+      <div class="form-items">
+        <p class="title-items">Gender</p>
+        <label for="male">
+          <input type="radio" id="male" value="male" name="gender">Male</label>
+        <label for="female">
+          <input type="radio" id="female" value="female" name="gender">Female</label>
+        <label for="other">
+          <input type="radio" id="other" value="other" name="gender">Other</label>
+        <label for="prefer">
+        <input type="radio" id="prefer" value="no-say" name="gender">Prefer not to say</label>
+      </div>
+      <div class="form-items">
+        <p class="title-items"> Which style of kiting do you most prefer? </p>
+        <select id="dropdown" class="form-forms">
+          <option disabled selected value>Select a sport</option>
+          <option>Kiteboarding</option>
+          <option>Kitesurfing</option>
+          <option>Wing Surfing</option>
+          <option>Kite Flying</option>
+        </select>
+      </div>
+      <div class="form-items">
+        <p class="title-items">Which discipline(s) of kiting do you practice? Select all that apply</p>
+        <label for="wave-kitesurfing">
+        <input type="checkbox" id="wave-kitesurfing" name="disciplines" value="wave-kitesurfing">Wave Kitesurfing</label>
+        <label for="strapless-kitesurfing">
+        <input type="checkbox" id="strapless-kitesurfing" name="disciplines" value="strapless-kitesurfing">Strapless Kitesurfing</label>
+        <label for="freestyle-kiteboarding">
+        <input type="checkbox" id="freestyle-kiteboarding" name="disciplines" value="freestyle-kiteboarding">Freestyle Kiteboarding</label>
+      <label for="speed-kiteboarding">
+        <input type="checkbox" id="speed-kiteboarding" name="disciplines" value="speed-kiteboarding">Speed Kiteboarding</label>
+        <label for="big-air">
+        <input type="checkbox" id="big-air" name="disciplines" value="big-air">Big Air</label>
+        <label for="slalom/boardercross">
+        <input type="checkbox" id="slalom/boardercross" name="disciplines" value="slalom/boardercross">Slalom/Boardercross</label>
+        <label for="course-racing">
+        <input type="checkbox" id="course-racing" name="disciplines" value="course-racing">Course Racing</label>
+        <label for="snow-kiteboarding">
+        <input type="checkbox" id="snow-kiteboarding" value="snow-kiteboarding" name="disciplines">Snow Kiteboarding</label>
+        <label for="kite-buggying">
+        <input type="checkbox" id="kite-buggying" value="kite-buggying" name="disciplines">Kite Buggying</label>
+        <label for="land-kiteboarding">
+        <input type="checkbox" id="land-kiteboarding" value="land-kiteboarding" name="disciplines">Land Kiteboarding</label>
+        <label for="wing-surfing">
+        <input type="checkbox" id="wing-surfing" value="wing-surfing" name="disciplines">Wing Surfing</label>
+      </div>
+      <div class="form-items">
+        <p class="title-items">Suggestions or Comments?</p>
+        <textarea placeholder="Enter your comments here..." class="form-forms"></textarea><br>
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+      </div>
+    </form>
+</main>
